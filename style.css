@@ -1,0 +1,149 @@
+body, html {
+    margin: 20;
+    padding: 20;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #4ea0ff;
+    background-image: url(img/pattern.png);
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+    padding-top: 30px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.author {
+    color: gray;
+    margin-top: -10px;
+}
+
+.highlight {
+    color: #4ea0ff;
+}
+
+.credits {
+    margin-top: 0px;
+    font-size: 0.8em;
+}
+
+.highlight-yellow {
+    background-color: yellow;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-between;
+    background: #e6f7ff;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.grid > div {
+    flex: 1;
+    margin: 0 0.5rem;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  th, td {
+    padding: 0px;
+    border: 1px;
+    word-wrap: break-word;
+  }
+  
+  th:nth-child(1),
+  th:nth-child(2),
+  td:nth-child(1),
+  td:nth-child(2) {
+    width: 33.33%;
+    padding-left: 0px;
+  }
+  
+  th:nth-child(3),
+  td:nth-child(3) {
+    width: 66.66%;
+  }
+  
+  th {
+    background-color: #1E9FFF;
+    color: white;
+    text-align: left;
+    padding: 0;
+    height: 1em;
+    line-height: 1em;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #b4e5fc;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: white;
+  }
+  
+  tr:nth-child(even) td:first-child,
+  tr:nth-child(even) td:nth-child(2) {
+    background-color: #b3e5fc;
+  }
+  
+  tr:nth-child(odd) td:first-child,
+  tr:nth-child(odd) td:nth-child(2) {
+    background-color: white;
+  }
+
+  h3{
+    color: gray;
+    margin-bottom: 5px;
+  }
+  
+  .suggestions {
+    display: list-item;
+    gap: 1rem;
+    margin-top: -15px;
+}
+
+.card {
+    width: 45%;
+    position: relative;
+}
+
+.card img {
+    width: 40%;
+    height: 100%;
+    display: block;
+    padding-bottom: 15px;
+}
+
+.card h4 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin: 0;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
