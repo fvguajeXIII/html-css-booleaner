@@ -10,11 +10,6 @@ header {
   padding: 70px 0 0 10px;
 }
 
-.logo {
-  height: 70px;
-  margin: auto;
-}
-
 #booleaner_logo {
   height: 70px;
   margin-top: 50px;
@@ -35,6 +30,7 @@ header {
 
 a {
   text-decoration: none;
+  color: #509ebd;
 }
 
 .photo p{
