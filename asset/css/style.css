@@ -24,8 +24,13 @@ header {
   margin-bottom: 25px;
 }
 
+.main_header h1{
+  margin-bottom: 0;
+}
+
 .main_header p {
   color: gray;
+  margin-top: 0;
 }
 
 a {
@@ -39,6 +44,10 @@ a {
 
 .highlighted_yellow{
   background-color: yellow;
+}
+
+main ul{
+  padding-left: 17px;
 }
 
 main table{
