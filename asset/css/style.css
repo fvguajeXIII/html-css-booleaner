@@ -70,6 +70,34 @@ main td {
   background-color: #b1e5f2;
 }
 
+footer{
+  margin-top: 25px;
+}
+
 footer h3{
   color: gray;
+}
+
+#footer_img1{
+  background-image: url(../img/monitor.jpg);
+  height: 200px;
+  width: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+}
+
+#footer_img2{
+  background-image: url(../img/graph.jpg);
+  height: 200px;
+  width: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+}
+
+.footer_text_high{
+  color: white;
+  font-weight: 800;
+  padding: 15px 0 0 20px;
 }
