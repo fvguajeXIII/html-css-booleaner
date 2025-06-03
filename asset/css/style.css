@@ -40,3 +40,32 @@ a {
 .highlighted_yellow{
   background-color: yellow;
 }
+
+main table{
+  border-collapse: collapse;
+  margin-bottom: 25px;
+}
+
+main thead{
+  background-color: #20a9e5;
+  color: white;
+  text-align: left;
+}
+
+.col_width {
+  width: 25%;
+}
+
+main th {
+  margin-left: 10px;
+  padding-right: 200px;
+}
+
+main td {
+  margin-left: 10px;
+  padding: 10px, 0;
+}
+
+.table_color{
+  background-color: #b1e5f2;
+}
