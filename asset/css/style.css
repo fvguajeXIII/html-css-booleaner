@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #4282cb;
+  height: 150px;
+  background-image: url("../img/pattern.png");
+  background-size: auto 200%;
+  padding: 70px 0 0 10px;
+}
+
+.logo {
+  height: 70px;
+  margin: auto;
+}
+
+#booleaner_logo {
+  height: 70px;
+}
