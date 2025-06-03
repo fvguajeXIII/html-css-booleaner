@@ -17,4 +17,26 @@ header {
 
 #booleaner_logo {
   height: 70px;
+  margin-top: 50px;
+}
+
+.main_header{
+  margin-bottom: 25px;
+}
+
+.main_header p {
+  color: gray;
+}
+
+a {
+  text-decoration: none;
+}
+
+.photo p{
+  font-size: 12px;
+  margin: 0px;
+}
+
+.highlighted_yellow{
+  background-color: yellow;
 }
